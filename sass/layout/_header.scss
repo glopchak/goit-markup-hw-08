@@ -1,0 +1,8 @@
+.header {
+  background-color: var(--main-bckgr-color);
+  border-bottom: 1px solid var(--header-bottom-line);
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}

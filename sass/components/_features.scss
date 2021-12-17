@@ -1,0 +1,27 @@
+.features {
+  display: flex;
+
+  background-color: var(--main-bckgr-color);
+}
+.features__item {
+  width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.features__thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background: var(--thumb-color);
+}
+
+.features__text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--second-title-color);
+}

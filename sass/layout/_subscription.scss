@@ -1,0 +1,64 @@
+.newsletter {
+  display: block;
+  margin-left: auto;
+}
+.newsletter__text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--third-title-color);
+}
+.footer-form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-form__input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  padding-left: 16px;
+
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.button-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  width: 200px;
+  height: 50px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  border: none;
+  background-color: var(--main-btn-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--third-title-color);
+
+  transition: background-color var(--transition-duration) var(--timing-function),
+    border-color var(--transition-duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--main-btn-color);
+    color: var(--third-title-color);
+  }
+}
+
+.footer-form__icon {
+  fill: var(--second-social-icon-color);
+  margin-left: 10px;
+}
