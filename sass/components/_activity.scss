@@ -1,3 +1,8 @@
+.section--activity {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
 .section--padding {
   padding-top: 0;
 }

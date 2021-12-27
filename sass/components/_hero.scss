@@ -1,35 +1,69 @@
 .hero {
-  max-width: 1600px;
+  max-width: 480px;
   margin: 0 auto;
-  padding: 200px 0;
+  padding: 118px 0;
 
   text-align: center;
 
   background-color: var(--second-bckgr-color);
+
+  @media screen and (min-width: 1200px) {
+    padding: 200px 0;
+  }
 }
 .hero--overlay {
-  max-width: 1600px;
-  height: 600px;
-
+  max-width: 480px;
+  height: 400px;
   margin-right: auto;
   margin-left: auto;
 
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/hero-bckg.jpg');
+    url('../images/hero/hero-bckg-tel.jpg');
 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--second-bckgr-color);
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../images/hero/hero-bckg-tel-2x.jpg');
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../images/hero/hero-bckg-tab.jpg');
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url('../images/hero/hero-bckg-tab-2x.jpg');
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+    height: 600px;
+
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../images/hero/hero-bckg.jpg');
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url('../images/hero/hero-bckg-2x.jpg');
+    }
+  }
 }
 .hero__title {
   margin-bottom: 30px;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.61;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-title-color);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 /*кнопка "заказ услуги"*/
 

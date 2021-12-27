@@ -1,0 +1,19 @@
+.mob-social-menu {
+  display: none;
+}
+
+.mob-social-menu__line {
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  transform: rotate(90deg);
+}
+
+.mob-social-menu__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+/*# sourceMappingURL=social-menu.css.map */

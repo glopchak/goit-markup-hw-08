@@ -5,7 +5,11 @@
   line-height: 1.19;
 }
 .header__logo {
-  margin-right: 94px;
+  margin-right: auto;
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 94px;
+  }
 }
 
 .logo__dark {

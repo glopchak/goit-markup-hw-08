@@ -6,10 +6,15 @@
   justify-content: center;
   align-items: center;
 
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 11px;
+  line-height: 1.16;
 
   color: var(--second-title-color);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 
   .checkbox:checked + & {
     .checkbox__item {

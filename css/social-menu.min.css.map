@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,AAAC,CAGf,OAAO,CAAE,IAAI,CACd,AACD,AAAA,sBAAsB,AAAC,CACrB,YAAY,CAAE,IAAI,CAClB,WAAW,CAAE,IAAI,CACjB,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,kBAAqB,CACvC,SAAS,CAAE,aAAa,CACzB,AACD,AAAA,sBAAsB,AAAC,CACrB,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CACjB,cAAc,CAAE,MAAM,CAEtB,KAAK,CAAE,mBAAmB,CAC3B",
+    "sources": [
+        "../sass/components/social-menu.scss"
+    ],
+    "names": [],
+    "file": "social-menu.min.css"
+}

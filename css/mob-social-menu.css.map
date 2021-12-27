@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/components/mob-social-menu.scss"
+    ],
+    "names": [],
+    "file": "mob-social-menu.css"
+}
