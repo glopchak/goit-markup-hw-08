@@ -1,5 +1,5 @@
 .hero {
-  max-width: 480px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 118px 0;
 
@@ -12,7 +12,6 @@
   }
 }
 .hero--overlay {
-  max-width: 480px;
   height: 400px;
   margin-right: auto;
   margin-left: auto;
@@ -30,8 +29,6 @@
   }
 
   @media screen and (min-width: 768px) {
-    max-width: 768px;
-
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../images/hero/hero-bckg-tab.jpg');
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -40,7 +37,6 @@
     }
   }
   @media screen and (min-width: 1200px) {
-    max-width: 1600px;
     height: 600px;
 
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
