@@ -912,7 +912,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .client__item {
-    flex-basis: calc(100% / 3 - 15px);
+    flex-basis: calc(100% / 3 - 30px);
   }
 }
 
@@ -1226,6 +1226,16 @@ a {
 
 .logo__light {
   color: var(--second-logo-color);
+}
+
+.footer__thumb {
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__thumb {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
